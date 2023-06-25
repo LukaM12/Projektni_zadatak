@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: white;
+}
+body {
+    background-color: rgb(244, 245, 246);
+}
+.naslov {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+.naslov h1 {
+    color: black;
+    font-weight: bold;
+    line-height: 0.40;
+}
+footer {
+    color: darkgray;
+}
+.navi {
+    font-size: 15px;
+    font-weight: bold;
+}
+.foot{
+    background-color: darkgrey;
+    color: white;
+}
+article {
+    background-color: white;
+    padding-bottom: 20px;
+}
+.odlomak{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.kategorija {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.odl2 {
+    margin-top: 4px;
+}
+.clanak img {
+    height: 164px;
+    aspect-ratio: auto;
+    object-fit: cover;
+}
+.clanak h4 {
+    font-size: 20px;
+    margin-top: 2%;
+}
+.clanak2 img {
+    height: 202.5px;
+    aspect-ratio: auto;
+    object-fit: cover;
+}
+.clanak2 h4 {
+    font-size: 20px;
+    margin-top: 2%;
+}
+.nasl {
+    padding: 0 15%;
+}
+section, main {
+    background-color: white;
+}
+.sec {
+    margin-top: -0.5rem;
+}
+.slika {
+    padding-left: 95px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+img {
+    width: 100%;
+}
+button {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: gold;
+    background-color: gold;
+}
+@media screen and (min-width: 992px) {
+    .clanak {
+        margin: 0 1.66%;
+    }
+}
